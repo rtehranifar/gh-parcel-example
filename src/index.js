@@ -1,4 +1,4 @@
-import * as database from './database';
+import * as database from './database.js';
 
 const buildMessageRow = (messageItem) => {
   const newMessageRow = document.createElement('tr');
